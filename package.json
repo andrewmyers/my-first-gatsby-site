@@ -17,6 +17,9 @@
     "dependencies": {
         "eslint-config-amyers": "git://github.com/andrewmyers/eslint-config-amyers.git",
         "gatsby": "^4.1.0",
+        "gatsby-plugin-image": "^2.1.0",
+        "gatsby-plugin-sharp": "^4.1.0",
+        "gatsby-source-filesystem": "^4.1.0",
         "react": "^17.0.1",
         "react-dom": "^17.0.1"
     },
