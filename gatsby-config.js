@@ -3,5 +3,16 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "My first gatsby site",
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-plugin-material-ui"],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-material-ui",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      },
+    },
+  ],
 };
